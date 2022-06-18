@@ -1,0 +1,27 @@
+{
+    "name": "jarlskov/laravel-untappd",
+    "description": "Small library that makes it easy to use the Jarlskov/Untappd API wrapper in your Laravel project.",
+    "type": "library",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "Jarlskov\\LaravelUntappd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesper Jarlskov",
+            "email": "jesper@jarlskov.dk"
+        }
+    ],
+    "require": {
+        "jarlskov/untappd": "^0.0.1"
+    },
+    "extra": {
+        "laravel": { 
+            "providers": [
+                "Jarlskov\\LaravelUntappd\\Providers\\UntappdServiceProvider"
+            ]
+        }
+    }
+}
